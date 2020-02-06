@@ -1,0 +1,11 @@
+#app{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: center;
+    align-items: flex-start;
+}
+body{
+    background:#bdbdbd;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800&display=swap');
