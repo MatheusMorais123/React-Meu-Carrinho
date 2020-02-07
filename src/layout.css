@@ -1,11 +1,12 @@
 .container {
-    width: 100vw;
+    width: 1240px;
     height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;   
-    margin:60px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 aside{
     width: 360px;
@@ -59,7 +60,7 @@ aside .box .right .title{
     padding-left: 10px;
     width:100%;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 10px;
     font-family: 'Poppins', sans-serif;
 }
 aside .box .right .price p{
@@ -129,4 +130,11 @@ aside .free[type=submit]{
     cursor:pointer;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 10px;
+}
+aside .box::after {
+    background: #000;
+    width: 100%;
+    content:"";
+    z-index: 9999999999;
+    position: relative;
 }
